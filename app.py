@@ -2,10 +2,13 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
+import sklearn
 from streamlit_option_menu import option_menu
 import matplotlib.pyplot as plt
 import seaborn as sns
 from streamlit_option_menu import option_menu
+from sklearn.preprocessing import StandardScaler
+from sklearn.ensemble import RandomForestClassifier
 
 df = pd.read_csv("exported_data.csv")
 
