@@ -3,4 +3,8 @@ pandas==2.2.2
 numpy==1.26.4
 streamlit-option-menu==0.4.0
 matplotlib==3.8.4
+<<<<<<< HEAD
 seaborn==0.13.2
+=======
+seaborn==0.13.2
+>>>>>>> c5ec6c47f0473435d909d7b71b5f766cd2366898
