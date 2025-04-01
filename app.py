@@ -5,6 +5,7 @@ import pickle
 from streamlit_option_menu import option_menu
 import matplotlib.pyplot as plt
 import seaborn as sns
+from streamlit_option_menu import option_menu
 
 df = pd.read_csv("exported_data.csv")
 
@@ -259,7 +260,7 @@ def predict_page():
 
             # Display the result
             st.markdown(
-                f"<p style='background-color:{bg_color}; color:white; padding:15px; font-size:18px;'>Prediction: {prediction_result}<br>Confidence: {((confidence*10000)//1)/100}%</p>",
+                f"<p style='background-color:{bg_color}; color:white; padding:15px; font-size:18px;'>Prediction: {prediction_result}<br>Confidence: {((confidence * 10000) // 1) / 100}%</p>",
                 unsafe_allow_html=True,
             )
 

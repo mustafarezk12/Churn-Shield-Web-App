@@ -39,3 +39,17 @@ xgboost==2.1.1
 yarg==0.1.9
 yarl==1.18.3
 zipp==3.21.0
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+streamlit-option-menu==0.3.13
+matplotlib==3.8.4
+seaborn==0.13.2
+streamlit==1.35.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+streamlit-option-menu==0.3.13
+matplotlib==3.8.4
+seaborn==0.13.2
