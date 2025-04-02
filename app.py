@@ -330,7 +330,7 @@ def insights_page():
             make_barplot(df, "Support Calls", unit="calls", additional=" (in a month)")
             # Sixth plot with description
             st.subheader("6. Customer Churn Dashboard")
-            st.image("dash.png", use_column_width=True)
+            st.image("dash.PNG", use_column_width=True)
 
 
 # 4. Upper navbar to navigate between pages
