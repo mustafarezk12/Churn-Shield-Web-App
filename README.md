@@ -20,7 +20,7 @@
 
 ## 🎬 See It in Action
 Watch a 30-second demo of Churn Shield's 3 core pages:  
-[![Video Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtube.com/watch?v=YOUR_VIDEO_ID)  
+[![Video Demo](https://img.youtube.com/vi/dOPVO60x3w4/0.jpg)](https://youtu.be/dOPVO60x3w4)  
 *(Click to play video)*
 
 ---
@@ -62,7 +62,7 @@ Watch a 30-second demo of Churn Shield's 3 core pages:
 ## 🛠️ Technical Overview
 ### Installation
 ```bash
-git clone https://github.com/yourusername/churn-shield.git
+git clone https://github.com/mustafarezk12/churn-shield.git
 cd churn-shield
 pip install -r requirements.txt
 streamlit run app.py
