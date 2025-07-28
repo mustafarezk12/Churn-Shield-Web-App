@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status">
 </div>
 
+<div align="center">
+  <img src="images/LOGO.jpg" alt="Screenshot" width="600" height="400">
+</div>
+
 ## 🎬 See It in Action
 Watch a 30-second demo of Churn Shield's 3 core pages:  
 [![Video Demo](https://img.youtube.com/vi/dOPVO60x3w4/0.jpg)](https://youtu.be/dOPVO60x3w4)  
@@ -29,6 +33,9 @@ The application provides three main sections:
 1. **🏠 Home**: Introduction and dataset information
 2. **🔍 Insights**: Visual analysis of customer behavior patterns
 3. **🎯 Predict**: Interactive prediction tool for individual customers
+
+## 📊 Power BI Dashboard 
+<img src="images/dash.PNG" alt="Screenshot" width="600" height="400">
 
 ## 🛠️ Technology Stack
 
