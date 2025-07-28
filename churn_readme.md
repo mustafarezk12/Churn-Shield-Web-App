@@ -7,6 +7,10 @@
   <img src="https://img.shields.io/badge/Status-Active-brightgreen.svg" alt="Status">
 </div>
 
+## 🎬 See It in Action
+Watch a 30-second demo of Churn Shield's 3 core pages:  
+[![Video Demo](https://img.youtube.com/vi/dOPVO60x3w4/0.jpg)](https://youtu.be/dOPVO60x3w4)  
+*(Click to play video)*
 ## 📊 Overview
 
 **Churn Shield** is an intelligent customer churn prediction application built with Streamlit and machine learning. It helps businesses identify customers who are likely to discontinue their services, enabling proactive retention strategies.
@@ -42,7 +46,7 @@ Before running the application, ensure you have Python 3.8+ installed on your sy
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/churn-shield.git
+git clone https://github.com/mustafarezk12/churn-shield.git
 cd churn-shield
 ```
 
@@ -51,16 +55,8 @@ cd churn-shield
 pip install -r requirements.txt
 ```
 
-### 3. Required Files
-Ensure you have the following files in your project directory:
-- `exported_data.csv` - Dataset file
-- `model(1).pkl` - Trained machine learning model
-- `mean_std_values.pkl` - Normalization parameters
-- `LOGO.jpg` - Application logo
-- `image.png` - Prediction page image
-- `dash.PNG` - Dashboard screenshot
 
-### 4. Run the Application
+### 3. Run the Application
 ```bash
 streamlit run app.py
 ```
@@ -146,14 +142,22 @@ The application features:
 
 ```
 churn-shield/
-├── app.py                 # Main Streamlit application
-├── exported_data.csv      # Training dataset
-├── model(1).pkl          # Trained ML model
-├── mean_std_values.pkl   # Normalization parameters
-├── requirements.txt      # Python dependencies
-├── LOGO.jpg             # Application logo
-├── image.png            # Prediction page image
-├── dash.PNG             # Dashboard screenshot
+├──Dataset
+|    ├── customer_churn_dataset-testing-master.csv
+|    ├── customer_churn_dataset-training-master.csv
+|
+├──EDA&ML-MODel
+     ├── Full_Customer_Churn(1).ipynb  # EDA & Trained/test ML model
+├── Streamlit  # Main Streamlit application
+|___ |___ app.py
+|    |___ model(1).pkl # Trained ML model
+|    |___ exported_data.csv  # Training dataset
+|    |___ mean_std_values.pkl # Normalization parameters
+|    |___ requirements.txt     # Python dependencies
+├── images
+|   ├── LOGO.jpg             # Application logo
+|   ├── image.png            # Prediction page image
+|   ├── dash.PNG             # Dashboard screenshot
 └── README.md            # Project documentation
 ```
 
@@ -173,7 +177,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Your Name** - *Initial work* - [YourGitHub](https://github.com/mustafarezk12)
 
 ## 🙏 Acknowledgments
 
@@ -184,7 +188,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 If you have any questions or run into issues, please:
-1. Check the [Issues](https://github.com/yourusername/churn-shield/issues) page
+1. Check the [Issues](https://github.com/mustafarezk12/churn-shield/issues) page
 2. Create a new issue if your problem isn't already reported
 3. Provide detailed information about your environment and the issue
 
